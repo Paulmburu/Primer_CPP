@@ -1,0 +1,10 @@
+*iter           Returns a reference to the element denoted by the iterator iter.
+iter->mem       Deferences iter and fetches the member named mem from the
+	        underlying element. Equivalent to (*iter) .mem.
+++iter          increments iter to refer to the next element in the container.
+--iter          Decrements iter to refer to the previous element in the
+                container.
+iter1 == iter2  compares two iterators for equality(inequality). Two iterators
+	        are equal.
+iter1 != iter2  if they denote the same element or if they are the off-the-end 
+                iterator for the same container.
